@@ -9,7 +9,7 @@ import java.nio.charset.StandardCharsets;
 
 public class RequestExecutor implements Executor{
 
-    private static String URL = "https://youtube.com";
+    private static String URL = "http://localhost:8082/auth";
     private static HttpClient client;
 
     public RequestExecutor() {
